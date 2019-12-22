@@ -1,0 +1,49 @@
+#calc_container {
+  height: 630px;
+  width: 400px;
+  margin: 40px auto;
+  background-color: black;
+  border-radius: 30px;
+}
+
+h1 {
+  padding: 50px 0 30px 20px;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+#result {
+  margin-left: 30px;
+  height: 50px;
+  width: 330px;
+  background-color: lightgrey;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#panel {
+  height: 340px;
+  width: 320px;
+  margin: 20px 10px 10px 35px;
+  background-color: orange;
+}
+
+#panel tr {
+  display: flex;
+  justify-content: space-around;
+}
+
+#panel tr td {
+  height: 52px;
+  width: 52px;
+  background-color: rgb(10, 16, 29);
+  margin: 10px;
+  padding-top: 7px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  align-self: center;
+}

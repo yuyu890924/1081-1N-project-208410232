@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test without network</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/isotope.css" />
+  </head>
+  <body>
+    <!-- PUT YOUR CONTENT HERE-->
+    <!-- NAVBAR WITH DROPDOWN -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">TKU_Classdemo</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Porfolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+              >TKU</a
+            >
+            <div class="dropdown-menu">
+              <a href="./TKU/w04_nav_demo/nav.html" class="dropdown-item">Nav-Demo</a>
+              <a href="./TKU/w09_calculator/calc.html" class="dropdown-item">Calculator</a>
+              
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--==========================
+Portfolio Section
+============================-->
+    <section id="portfolio" class="section-bg">
+      <div class="container">
+        <header class="section-header">
+            <h1 class="section-title text-center">Our Portfolio</h3>
+        </header>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-demo">Demo</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-demo wow
+fadeInUp"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./img/portfolio/colt.jpg" class="img-fluid" alt="" />
+                <a
+                  href="./img/portfolio/colt.jpg"
+                  data-lightbox="portfolio"
+                  data-title="Demo 1"
+                  class="link-preview"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="./TKU/w04_nav_demo/nav.html" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="./TKU/w04_nav_demo/nav.html">Nav_Demo</a></h4>
+                <p>Demo</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-demo wow
+fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="./img/portfolio/calculator.JPG" class="img-fluid" alt="" />
+                <a
+                  href="./img/portfolio/calculator.JPG"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Demo 2"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="./TKU/w09_calculator/calc.html" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="./TKU/w09_calculator/calc.html">Calculator</a></h4>
+                <p>Demo</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-app wow
+fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/app2.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="App 2"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">App 2</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-card wow
+fadeInUp"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/card2.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Card 2"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Card 2</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-web wow
+fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/web2.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Web 2"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Web 2</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-app wow
+fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/app3.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="App 3"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">App 3</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-card wow
+fadeInUp"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/card1.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Card 1"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Card 1</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-card wow
+fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/card3.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Card 3"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Card 3</a></h4>
+                <p>Card</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 portfolio-item filter-web wow
+fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="" />
+                <a
+                  href="img/portfolio/web1.jpg"
+                  class="link-preview"
+                  data-lightbox="portfolio"
+                  data-title="Web 1"
+                  title="Preview"
+                  ><i class="ion ion-eye"></i
+                ></a>
+                <a href="#" class="link-details" title="More Details"
+                  ><i class="ion ion-android-open"></i
+                ></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #portfolio -->
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./lib/isotope.pkgd.min.js"></script>
+    
+    <script src="./js/isotope.js"></script>
+  </body>
+</html>

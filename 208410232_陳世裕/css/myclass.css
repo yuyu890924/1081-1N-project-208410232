@@ -1,0 +1,61 @@
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+table {
+  border: 1px solid;
+  padding: 5px;
+  font-size: 14px;
+}
+
+td {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  word-break: break-all;
+}
+
+.name {
+  background-color: darkslateblue;
+  color: white;
+  font-size: 18px;
+}
+
+.tablename {
+  background-color: darkblue;
+  color: white;
+  font-size: 18px;
+}
+
+.weekday {
+  background-color: rgb(84, 209, 0);
+  font-size: 18px;
+}
+
+.number {
+  width: 18px;
+  background-color: chocolate;
+}
+
+.time {
+  background-color: bisque;
+  width: 90px;
+}
+
+.content {
+  background-color: darkseagreen;
+}
+
+.contact {
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+}
+
+.contactinfo {
+  background-color: darkgray;
+  text-align: left;
+  padding-left: 5px;
+}

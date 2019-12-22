@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div Demo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../css/all.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="nav.css" />
+    
+  </head>
+
+  <body>
+    <!-- NAVBAR WITH DROPDOWN -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+  <div class="container">
+  <a class="navbar-brand" href="../../index.html">TKU_Classdemo</a>
+  <ul class="navbar-nav">
+  <li class="nav-item">
+  <a class="nav-link" href="../../index.html">Home</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="../../Portfolio.html">Porfolio</a>
+  </li>
+  <li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+  >TKU</a
+  >
+  <div class="dropdown-menu">
+  <a href="nav.html" class="dropdown-item">Nav-Demo</a>
+  <a href="../w09_calculator/calc.html" class="dropdown-item">Calculator</a>
+  <a href="#" class="dropdown-item">Link 3</a>
+  </div>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#">Services</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#">Contact</a>
+  </li>
+  </ul>
+  </div>
+  </nav>
+  
+
+
+    <div id="navdemo">
+     <div id="heading">
+      <nav>
+        <ul>
+          <li onclick="change(1)"><a href="#">Intro</a></li>
+          <li onclick="change(2)"><a href="#">Pokemon</a></li>
+          <li onclick="change(3)"><a href="#">Gallery</a></li>
+          <li onclick="change(4)"><a href="#">Blog</a></li>
+          <li onclick="change(5)"><a href="#">Div</a></li>
+          <li onclick="change(6)"><a href="#">tku60</a></li>
+        </ul>
+      </nav>
+     </div>
+
+     <div id="section"></div>
+    <div>
+      <script src="../../js/jquery-3.3.1.slim.min.js"></script>
+      <script src="../..js/popper.min.js"></script>
+      <script src="../../js/bootstrap.min.js"></script>
+      <script src="nav.js"></script>
+      
+  </body>
+</html>
